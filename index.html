@@ -16,7 +16,7 @@ crossorigin="anonymous">
 <div id="app" class="container">
 <h1>Ciudades</h1>
 <br>
-<a class="btn btn-primary" href="../producto_nuevo.html">Nuevo</a>
+<a class="btn btn-primary" href="producto_nuevo.html">Nuevo</a>
 <br><br>
 <div v-if="error">
 <p>Lo sentimos , ........</p>
@@ -51,7 +51,7 @@ crossorigin="anonymous">
 <img width="60" :src="ciudad.imagen" :alt="ciudad.nombre">
 </td>
 <td>
-<a class="btn btn-primary" :href="'./producto_update.html?id='+ ciudad.id" >Editar</a>
+<a class="btn btn-primary" :href="'producto_update.html?id='+ ciudad.id" >Editar</a>
 <button type="button" class="btn btn-danger" v-on:click="eliminar(ciudad.id)" >Eliminar</button>
 </td>
 </tr>
