@@ -11,7 +11,7 @@ dias:0,
 precio:0,
 descripcion:"",
 imagen:"",
-url:'https://Camimop.pythonanywhere.com/ciudad'+id,
+url:'https://Camimop.pythonanywhere.com/ciudad/'+id,
 }
 },
 methods: {
